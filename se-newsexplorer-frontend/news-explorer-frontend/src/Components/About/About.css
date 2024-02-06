@@ -1,0 +1,101 @@
+@import url("../../vendor/fonts.css");
+
+.about__section {
+  display: flex;
+  flex-direction: row;
+  max-height: 624px;
+  /* max-width: 100%; */
+  width: auto;
+  gap: 70px;
+  padding: 100px;
+}
+
+.about__image {
+  width: 464px;
+  height: 464px;
+  border-radius: 50%;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__title {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.about__para {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__para-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+@media screen and (min-width: 621px) and (max-width: 1250px) {
+  .about__section {
+    height: 354px;
+    padding: 0 35px;
+    gap: 35px;
+  }
+  .about__image {
+    height: 232px;
+    width: 232px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .about__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+  .about__text {
+    padding-top: 40px;
+    display: block;
+  }
+  .about__para {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px) {
+  .about__section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 25px 0 25px;
+    gap: 0;
+    max-height: 752px;
+  }
+  .about__text {
+    padding: 15px 10px 100px 10px;
+  }
+  .about__image {
+    height: 272px;
+    width: 272px;
+  }
+  .about__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+  }
+  .about__para {
+    width: 288px;
+  }
+}

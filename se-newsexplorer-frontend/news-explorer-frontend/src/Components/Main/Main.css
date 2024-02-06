@@ -1,0 +1,64 @@
+@import url("../../vendor/fonts.css");
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 85px;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  margin: 0;
+  padding-bottom: 35px;
+  max-width: 608px;
+}
+
+.main__para {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  max-width: 608px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  .main__section {
+    padding: 45px;
+  }
+  .main__title {
+    font-size: 36px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+  .main__content {
+    max-width: 452px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .main__section {
+    height: 440px;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main__title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
