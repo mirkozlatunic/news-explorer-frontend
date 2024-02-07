@@ -6,7 +6,7 @@ import github from "../../Images/github.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__section">
         <p className="footer__copyright">
           © 2020 Supersite, Powered by News API
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
