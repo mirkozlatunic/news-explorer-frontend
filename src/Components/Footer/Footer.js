@@ -25,26 +25,30 @@ const Footer = () => {
               Practicum
             </a>
           </div>
-          <div className="footer__icons">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="footer__icon" src={github} alt="github icon" />
-            </a>
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="footer__icon"
-                src={facebook}
-                alt="facebook icon"
-              />
-            </a>
-          </div>
+          <ul className="footer__icons">
+            <li className="footer__icon-item">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="footer__icon" src={github} alt="github icon" />
+              </a>
+            </li>
+            <li className="footer__icon-item">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="footer__icon"
+                  src={facebook}
+                  alt="facebook icon"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>

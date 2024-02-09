@@ -45,7 +45,7 @@ const Header = ({
           <p className="header__title">NewsExplorer</p>
         </Link>
         {loggedIn ? (
-          <div className="header__options">
+          <nav className="header__options">
             <p className="header__home">Home</p>
             <Link to="/saved-articles" className="header__links">
               <p className="header__articles">Saved articles</p>
@@ -64,7 +64,7 @@ const Header = ({
                 />
               </div>
             </button>
-          </div>
+          </nav>
         ) : (
           <div className="header__options">
             <p className="header__home">Home</p>

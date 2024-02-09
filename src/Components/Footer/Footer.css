@@ -43,6 +43,12 @@
   display: flex;
   flex-direction: row;
   gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__icon-item {
+  list-style-type: none;
 }
 
 .footer__icon {
