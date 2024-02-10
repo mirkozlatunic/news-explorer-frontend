@@ -38,9 +38,15 @@ Saved Articles Page
 - GitHub
 - Fetch API
 - React
+- NodeJS
+- MongoDB
 
 ## Backend Repository Link:
 
 - [Backend Repository Link](https://github.com/mirkozlatunic/news-explorer-backend)
+
+## GitHub Page
+
+- [Link to the Github Page](https://mirkozlatunic.github.io/news-explorer-frontend/)
 
 **Created By [Mirko Zlatunic](https://github.com/mirkozlatunic)**
