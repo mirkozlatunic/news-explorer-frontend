@@ -19,6 +19,7 @@
   font-size: 16px;
   line-height: 22px;
   cursor: pointer;
+  padding: 0;
 }
 
 .search__error {
@@ -41,8 +42,8 @@
 
 .search__button {
   position: absolute;
-  top: 1px;
-  right: -4px;
+  top: 0px;
+  right: 0px;
   border-radius: 50px;
   width: 168px;
   height: 64px;
@@ -61,7 +62,7 @@
 }
 
 .search__button:active {
-  opacity: 1.5;
+  background-color: darkblue;
 }
 
 @media screen and (min-width: 500px) and (max-width: 900px) {

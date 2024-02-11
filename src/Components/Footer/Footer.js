@@ -6,7 +6,7 @@ import github from "../../Images/github.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__section">
         <p className="footer__copyright">
           © 2020 Supersite, Powered by News API
@@ -25,29 +25,33 @@ const Footer = () => {
               Practicum
             </a>
           </div>
-          <div className="footer__icons">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="footer__icon" src={github} alt="github icon" />
-            </a>
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="footer__icon"
-                src={facebook}
-                alt="facebook icon"
-              />
-            </a>
-          </div>
+          <ul className="footer__icons">
+            <li className="footer__icon-item">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="footer__icon" src={github} alt="github icon" />
+              </a>
+            </li>
+            <li className="footer__icon-item">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="footer__icon"
+                  src={facebook}
+                  alt="facebook icon"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

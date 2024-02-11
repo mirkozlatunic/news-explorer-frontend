@@ -133,7 +133,7 @@ const NewsCard = ({
       </div>
       <div className="card__info">
         <p className="card__date">{formatDate(date)}</p>
-        <h2 className="card__title">{title}</h2>
+        <h3 className="card__title">{title}</h3>
         <p className="card__description">{text}</p>
         <p className="card__author">{author}</p>
       </div>

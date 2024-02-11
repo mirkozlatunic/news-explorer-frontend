@@ -47,10 +47,10 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1251px) {
+@media screen and (min-width: 1530px) {
   .header__section {
     justify-content: center;
-    gap: 800px;
+    gap: 730px;
   }
 }
 
