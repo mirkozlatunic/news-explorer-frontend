@@ -111,7 +111,6 @@ function App() {
       .then((res) => {
         if (res) {
           console.log("handleLogin function:", res);
-          localStorage.setItem("jwt", res.token);
           setLoginValidation("");
           auth
             .checkToken(res.token)
@@ -196,7 +195,6 @@ function App() {
 
   const logout = () => {
     setLoggedIn(false);
-    localStorage.removeItem("jwt");
     history.push("/");
   };
 
@@ -226,26 +224,8 @@ function App() {
     };
   }, [windowWidth]);
 
-  useEffect(() => {
-    const jwt = localStorage.getItem("jwt");
-    if (jwt) {
-      auth
-        .checkToken(jwt)
-        .then((res) => {
-          setCurrentUser(res.data);
-          setLoggedIn(true);
-          getCards(jwt).then((res) => {
-            setSavedCards(res.data);
-          });
-        })
-        .catch((err) => {
-          console.error("Token failed: ", err);
-        });
-    }
-  }, []);
-
   return (
-    <CurrentUserContext.Provider value={{ currentUser }}>
+    <>
       <div className="app">
         <Switch>
           <Route exact path="/">
@@ -372,7 +352,7 @@ function App() {
           />
         )}
       </div>
-    </CurrentUserContext.Provider>
+    </>
   );
 }
 
