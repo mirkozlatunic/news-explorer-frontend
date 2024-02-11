@@ -45,8 +45,8 @@ Saved Articles Page
 
 - [Backend Repository Link](https://github.com/mirkozlatunic/news-explorer-backend)
 
-## GitHub Page
+## Home Page
 
-- [Link to the Github Page](https://mirkozlatunic.github.io/news-explorer-frontend/)
+- [Link to the Home Page](https://www.news-explorer.jumpingcrab.com")
 
 **Created By [Mirko Zlatunic](https://github.com/mirkozlatunic)**
