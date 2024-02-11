@@ -47,6 +47,6 @@ Saved Articles Page
 
 ## Home Page
 
-- [Link to the Home Page](https://www.news-explorer.jumpingcrab.com")
+- [Link to the Home Page](https://www.news-explorer.jumpingcrab.com)
 
 **Created By [Mirko Zlatunic](https://github.com/mirkozlatunic)**
