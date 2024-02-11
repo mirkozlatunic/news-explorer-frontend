@@ -1,7 +1,7 @@
 export const baseURL =
   process.env.NODE_ENV === "production"
-    ? "https://nomoreparties.co/news/v2"
-    : "http://newsapi.org/v2";
+    ? "https://api.news-explorer.jumpingcrab.com"
+    : "http://localhost:3001";
 
 ///before publication change baseURL to https://nomoreparties.co/news/v2  newsapi.org/v2
 
