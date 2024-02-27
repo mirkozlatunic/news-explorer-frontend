@@ -50,3 +50,7 @@ Saved Articles Page
 - [Link to the Home Page](https://www.news-explorer.jumpingcrab.com)
 
 **Created By [Mirko Zlatunic](https://github.com/mirkozlatunic)**
+
+## Improvement
+- [ ] Change the Icon to use ReactIcons with to replace icon pictures
+- [ ] Add popup modal for card preview when clicking on the card
