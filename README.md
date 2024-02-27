@@ -54,3 +54,4 @@ Saved Articles Page
 ## Improvement
 - [ ] Change the Icon to use ReactIcons with to replace icon pictures
 - [ ] Add popup modal for card preview when clicking on the card
+- [ ] Add Url link to popup modal of card to redirect to page for full content of the card information
